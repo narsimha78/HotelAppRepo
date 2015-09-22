@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [RegressionTest]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="seleniumtutorial.Hotel_Login">
+        <methods>
+          <include name="testHotelApp"/>
+          <include name="login"/>
+          <include name="terminate"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- seleniumtutorial.Hotel_Login -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->

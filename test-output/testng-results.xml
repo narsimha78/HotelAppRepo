@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smokeTest" duration-ms="67570" started-at="2015-09-22T06:44:53Z" finished-at="2015-09-22T06:46:01Z">
+    <groups>
+    </groups>
+    <test name="test2" duration-ms="67570" started-at="2015-09-22T06:44:53Z" finished-at="2015-09-22T06:46:01Z">
+      <class name="smoketest.Slider">
+        <test-method status="PASS" signature="Dragable()[pri:0, instance:smoketest.Slider@1e643faf]" name="Dragable" duration-ms="10364" started-at="2015-09-22T16:45:51Z" finished-at="2015-09-22T16:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragable -->
+      </class> <!-- smoketest.Slider -->
+      <class name="smoketest.Drag">
+        <test-method status="PASS" signature="Dragable()[pri:0, instance:smoketest.Drag@129a8472]" name="Dragable" duration-ms="11341" started-at="2015-09-22T16:44:54Z" finished-at="2015-09-22T16:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragable -->
+      </class> <!-- smoketest.Drag -->
+      <class name="smoketest.Resize">
+        <test-method status="PASS" signature="Dragable()[pri:0, instance:smoketest.Resize@3b6eb2ec]" name="Dragable" duration-ms="8604" started-at="2015-09-22T16:45:42Z" finished-at="2015-09-22T16:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragable -->
+      </class> <!-- smoketest.Resize -->
+      <class name="smoketest.javaScriptExample">
+        <test-method status="PASS" signature="JavaScriptExample()[pri:0, instance:smoketest.javaScriptExample@6a5fc7f7]" name="JavaScriptExample" duration-ms="6994" started-at="2015-09-22T16:45:35Z" finished-at="2015-09-22T16:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaScriptExample -->
+      </class> <!-- smoketest.javaScriptExample -->
+      <class name="smoketest.DropDown">
+        <test-method status="PASS" signature="DropD()[pri:0, instance:smoketest.DropDown@5594a1b5]" name="DropD" duration-ms="21170" started-at="2015-09-22T16:45:14Z" finished-at="2015-09-22T16:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropD -->
+      </class> <!-- smoketest.DropDown -->
+      <class name="smoketest.Drop">
+        <test-method status="PASS" signature="Dragable()[pri:0, instance:smoketest.Drop@3ac3fd8b]" name="Dragable" duration-ms="9062" started-at="2015-09-22T16:45:05Z" finished-at="2015-09-22T16:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragable -->
+      </class> <!-- smoketest.Drop -->
+    </test> <!-- test2 -->
+  </suite> <!-- smokeTest -->
+</testng-results>

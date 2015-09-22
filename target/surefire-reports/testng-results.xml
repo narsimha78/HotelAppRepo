@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionTest" duration-ms="23950" started-at="2015-09-22T07:43:56Z" finished-at="2015-09-22T07:44:19Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="23950" started-at="2015-09-22T07:43:56Z" finished-at="2015-09-22T07:44:19Z">
+      <class name="seleniumtutorial.TestExamples">
+        <test-method status="PASS" signature="first()[pri:0, instance:seleniumtutorial.TestExamples@64616ca2]" name="first" is-config="true" duration-ms="0" started-at="2015-09-22T17:43:56Z" finished-at="2015-09-22T17:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:seleniumtutorial.TestExamples@64616ca2]" name="beforeclass" is-config="true" duration-ms="1" started-at="2015-09-22T17:44:19Z" finished-at="2015-09-22T17:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtutorial.TestExamples@64616ca2]" name="afterMethod" duration-ms="0" started-at="2015-09-22T17:44:19Z" finished-at="2015-09-22T17:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtutorial.TestExamples@64616ca2]" name="beforeMethod" duration-ms="0" started-at="2015-09-22T17:44:19Z" finished-at="2015-09-22T17:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:seleniumtutorial.TestExamples@64616ca2]" name="test1" duration-ms="0" started-at="2015-09-22T17:44:19Z" finished-at="2015-09-22T17:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:seleniumtutorial.TestExamples@64616ca2]" name="test2" duration-ms="0" started-at="2015-09-22T17:44:19Z" finished-at="2015-09-22T17:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:seleniumtutorial.TestExamples@64616ca2]" name="afterClass" is-config="true" duration-ms="0" started-at="2015-09-22T17:44:19Z" finished-at="2015-09-22T17:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="last()[pri:0, instance:seleniumtutorial.TestExamples@64616ca2]" name="last" is-config="true" duration-ms="0" started-at="2015-09-22T17:44:19Z" finished-at="2015-09-22T17:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+      </class> <!-- seleniumtutorial.TestExamples -->
+      <class name="seleniumtutorial.Hotel_Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumtutorial.Hotel_Login@26ba2a48]" name="setUp" is-config="true" duration-ms="5538" started-at="2015-09-22T17:43:56Z" finished-at="2015-09-22T17:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:seleniumtutorial.Hotel_Login@26ba2a48]" name="login" duration-ms="2202" started-at="2015-09-22T17:44:01Z" finished-at="2015-09-22T17:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testHotelApp()[pri:0, instance:seleniumtutorial.Hotel_Login@26ba2a48]" name="testHotelApp" duration-ms="14858" started-at="2015-09-22T17:44:03Z" depends-on-methods="seleniumtutorial.Hotel_Login.login" finished-at="2015-09-22T17:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHotelApp -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:seleniumtutorial.Hotel_Login@26ba2a48]" name="terminate" is-config="true" duration-ms="1346" started-at="2015-09-22T17:44:18Z" finished-at="2015-09-22T17:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- seleniumtutorial.Hotel_Login -->
+    </test> <!-- test1 -->
+  </suite> <!-- RegressionTest -->
+  <suite name="smokeTest" duration-ms="52085" started-at="2015-09-22T07:43:03Z" finished-at="2015-09-22T07:43:55Z">
+    <groups>
+    </groups>
+    <test name="test2" duration-ms="52085" started-at="2015-09-22T07:43:03Z" finished-at="2015-09-22T07:43:55Z">
+      <class name="smoketest.Slider">
+        <test-method status="PASS" signature="Dragable()[pri:0, instance:smoketest.Slider@6fadae5d]" name="Dragable" duration-ms="6532" started-at="2015-09-22T17:43:49Z" finished-at="2015-09-22T17:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragable -->
+      </class> <!-- smoketest.Slider -->
+      <class name="smoketest.Drag">
+        <test-method status="PASS" signature="Dragable()[pri:0, instance:smoketest.Drag@3b6eb2ec]" name="Dragable" duration-ms="7774" started-at="2015-09-22T17:43:03Z" finished-at="2015-09-22T17:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragable -->
+      </class> <!-- smoketest.Drag -->
+      <class name="smoketest.Resize">
+        <test-method status="PASS" signature="Dragable()[pri:0, instance:smoketest.Resize@71be98f5]" name="Dragable" duration-ms="7476" started-at="2015-09-22T17:43:41Z" finished-at="2015-09-22T17:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragable -->
+      </class> <!-- smoketest.Resize -->
+      <class name="smoketest.javaScriptExample">
+        <test-method status="PASS" signature="JavaScriptExample()[pri:0, instance:smoketest.javaScriptExample@7a0ac6e3]" name="JavaScriptExample" duration-ms="6240" started-at="2015-09-22T17:43:35Z" finished-at="2015-09-22T17:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaScriptExample -->
+      </class> <!-- smoketest.javaScriptExample -->
+      <class name="smoketest.Drop">
+        <test-method status="PASS" signature="Dragable()[pri:0, instance:smoketest.Drop@3d24753a]" name="Dragable" duration-ms="7434" started-at="2015-09-22T17:43:11Z" finished-at="2015-09-22T17:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragable -->
+      </class> <!-- smoketest.Drop -->
+      <class name="smoketest.DropDown">
+        <test-method status="PASS" signature="DropD()[pri:0, instance:smoketest.DropDown@59a6e353]" name="DropD" duration-ms="16612" started-at="2015-09-22T17:43:19Z" finished-at="2015-09-22T17:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropD -->
+      </class> <!-- smoketest.DropDown -->
+    </test> <!-- test2 -->
+  </suite> <!-- smokeTest -->
+</testng-results>

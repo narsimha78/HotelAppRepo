@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTest]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="seleniumtutorial.TestExamples">
+        <methods>
+          <include name="last"/>
+          <include name="beforeclass"/>
+          <include name="first"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- seleniumtutorial.TestExamples -->
+      <class name="seleniumtutorial.Hotel_Login">
+        <methods>
+          <include name="testHotelApp"/>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- seleniumtutorial.Hotel_Login -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->

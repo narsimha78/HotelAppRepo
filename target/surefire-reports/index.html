@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RegressionTest">
+              <span class="suite-name border-passed">RegressionTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RegressionTest">
+                    <span>C:\selenium\workspace\framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RegressionTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RegressionTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RegressionTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RegressionTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RegressionTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RegressionTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionTest" class="hide-methods passed suite-RegressionTest"> (hide)</a> <!-- hide-methods passed suite-RegressionTest -->
+                      <a href="#" panel-name="suite-RegressionTest" class="show-methods passed suite-RegressionTest"> (show)</a> <!-- show-methods passed suite-RegressionTest -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="seleniumtutorial.TestExamples" hash-for-method="afterMethod">afterMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="seleniumtutorial.TestExamples" hash-for-method="beforeMethod">beforeMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="seleniumtutorial.Hotel_Login" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="seleniumtutorial.TestExamples" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="seleniumtutorial.TestExamples" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTest" title="seleniumtutorial.Hotel_Login" hash-for-method="testHotelApp">testHotelApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-smokeTest">
+              <span class="suite-name border-passed">smokeTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-smokeTest">
+                    <span>C:\selenium\workspace\framework\smokeTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-smokeTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-smokeTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-smokeTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-smokeTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-smokeTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-smokeTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-smokeTest" class="hide-methods passed suite-smokeTest"> (hide)</a> <!-- hide-methods passed suite-smokeTest -->
+                      <a href="#" panel-name="suite-smokeTest" class="show-methods passed suite-smokeTest"> (show)</a> <!-- show-methods passed suite-smokeTest -->
+                    </span>
+                    <div class="method-list-content passed suite-smokeTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeTest" title="smoketest.Resize" hash-for-method="Dragable">Dragable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeTest" title="smoketest.Drop" hash-for-method="Dragable">Dragable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeTest" title="smoketest.Slider" hash-for-method="Dragable">Dragable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeTest" title="smoketest.Drag" hash-for-method="Dragable">Dragable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeTest" title="smoketest.DropDown" hash-for-method="DropD">DropD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeTest" title="smoketest.javaScriptExample" hash-for-method="JavaScriptExample">JavaScriptExample</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-smokeTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionTest" class="panel RegressionTest">
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumtutorial.Hotel_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHotelApp">
+                  </a> <!-- testHotelApp -->
+                  <span class="method-name">testHotelApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+          <div class="suite-RegressionTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumtutorial.TestExamples</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="afterMethod">
+                  </a> <!-- afterMethod -->
+                  <span class="method-name">afterMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeMethod">
+                  </a> <!-- beforeMethod -->
+                  <span class="method-name">beforeMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTest-class-passed -->
+        </div> <!-- panel RegressionTest -->
+        <div panel-name="suite-smokeTest" class="panel smokeTest">
+          <div class="suite-smokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoketest.DropDown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DropD">
+                  </a> <!-- DropD -->
+                  <span class="method-name">DropD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokeTest-class-passed -->
+          <div class="suite-smokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoketest.Drag</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dragable">
+                  </a> <!-- Dragable -->
+                  <span class="method-name">Dragable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokeTest-class-passed -->
+          <div class="suite-smokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoketest.javaScriptExample</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaScriptExample">
+                  </a> <!-- JavaScriptExample -->
+                  <span class="method-name">JavaScriptExample</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokeTest-class-passed -->
+          <div class="suite-smokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoketest.Drop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dragable">
+                  </a> <!-- Dragable -->
+                  <span class="method-name">Dragable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokeTest-class-passed -->
+          <div class="suite-smokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoketest.Resize</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dragable">
+                  </a> <!-- Dragable -->
+                  <span class="method-name">Dragable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokeTest-class-passed -->
+          <div class="suite-smokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoketest.Slider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dragable">
+                  </a> <!-- Dragable -->
+                  <span class="method-name">Dragable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokeTest-class-passed -->
+        </div> <!-- panel smokeTest -->
+        <div panel-name="test-xml-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\selenium\workspace\framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;RegressionTest&quot;&gt;
+  &lt;test name=&quot;test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seleniumtutorial.Hotel_Login&quot;/&gt;
+      &lt;class name=&quot;seleniumtutorial.TestExamples&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test1 --&gt;
+&lt;/suite&gt; &lt;!-- RegressionTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-smokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\selenium\workspace\framework\smokeTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;smokeTest&quot;&gt;
+  &lt;test name=&quot;test2&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;smoketest&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;smoketest.Drag&quot;/&gt;
+      &lt;class name=&quot;smoketest.Drop&quot;/&gt;
+      &lt;class name=&quot;smoketest.DropDown&quot;/&gt;
+      &lt;class name=&quot;smoketest.javaScriptExample&quot;/&gt;
+      &lt;class name=&quot;smoketest.Resize&quot;/&gt;
+      &lt;class name=&quot;smoketest.Slider&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test2 --&gt;
+&lt;/suite&gt; &lt;!-- smokeTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test1 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-smokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for smokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test2 (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-smokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for smokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionTest');
+function tableData_RegressionTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testHotelApp')
+data.setCell(0, 2, 'seleniumtutorial.Hotel_Login')
+data.setCell(0, 3, 14858);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'seleniumtutorial.Hotel_Login')
+data.setCell(1, 3, 2202);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test1')
+data.setCell(2, 2, 'seleniumtutorial.TestExamples')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test2')
+data.setCell(3, 2, 'seleniumtutorial.TestExamples')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'afterMethod')
+data.setCell(4, 2, 'seleniumtutorial.TestExamples')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'beforeMethod')
+data.setCell(5, 2, 'seleniumtutorial.TestExamples')
+data.setCell(5, 3, 0);
+window.suiteTableData['RegressionTest']= { tableData: data, tableDiv: 'times-div-RegressionTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-RegressionTest">
+              </div> <!-- times-div-RegressionTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-smokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for smokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_smokeTest');
+function tableData_smokeTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DropD')
+data.setCell(0, 2, 'smoketest.DropDown')
+data.setCell(0, 3, 16612);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Dragable')
+data.setCell(1, 2, 'smoketest.Drag')
+data.setCell(1, 3, 7774);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Dragable')
+data.setCell(2, 2, 'smoketest.Resize')
+data.setCell(2, 3, 7476);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Dragable')
+data.setCell(3, 2, 'smoketest.Drop')
+data.setCell(3, 3, 7434);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Dragable')
+data.setCell(4, 2, 'smoketest.Slider')
+data.setCell(4, 3, 6532);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'JavaScriptExample')
+data.setCell(5, 2, 'smoketest.javaScriptExample')
+data.setCell(5, 3, 6240);
+window.suiteTableData['smokeTest']= { tableData: data, tableDiv: 'times-div-smokeTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-smokeTest">
+              </div> <!-- times-div-smokeTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-smokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for smokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-smokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.Drag</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dragable</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.Drop</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dragable</span>
+                <span class="method-start">7776 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.DropDown</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DropD</span>
+                <span class="method-start">15211 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.javaScriptExample</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">JavaScriptExample</span>
+                <span class="method-start">31824 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.Resize</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dragable</span>
+                <span class="method-start">38064 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.Slider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dragable</span>
+                <span class="method-start">45540 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumtutorial.TestExamples</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">first</span>
+                <span class="method-start">52094 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumtutorial.Hotel_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52095 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">57633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHotelApp</span>
+                <span class="method-start">59836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">74695 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumtutorial.TestExamples</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">76041 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">76042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">76042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">76043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">76043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">76044 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">last</span>
+                <span class="method-start">76049 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-smokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.Drag</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dragable</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.Drop</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dragable</span>
+                <span class="method-start">7776 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.DropDown</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DropD</span>
+                <span class="method-start">15211 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.javaScriptExample</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">JavaScriptExample</span>
+                <span class="method-start">31824 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.Resize</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dragable</span>
+                <span class="method-start">38064 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoketest.Slider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dragable</span>
+                <span class="method-start">45540 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumtutorial.TestExamples</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">first</span>
+                <span class="method-start">52094 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumtutorial.Hotel_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52095 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">57633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHotelApp</span>
+                <span class="method-start">59836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">74695 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumtutorial.TestExamples</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">76041 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">76042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">76042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">76043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">76043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">76044 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">last</span>
+                <span class="method-start">76049 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
